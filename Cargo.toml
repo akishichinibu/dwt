@@ -1,0 +1,18 @@
+[package]
+name = "dwt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.10"
+bitvec = "1"
+qrcode = "0.12.0"
+rqrr = "0.7.1"
+reed-solomon = "0.2.1"
+ndarray = { version = "0.15.6", features = [ "rayon" ] }
+ndrustfft = "0.4.2"
+imageproc = "0.24.0"
+structopt = { version = "0.3", features = [ "paw" ] }
+paw = "1.0"
